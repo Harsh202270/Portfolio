@@ -1,19 +1,46 @@
 # 🌐 Personal Portfolio
 
-Welcome to my personal portfolio repository!  
+Welcome to my Personal Portfolio repository!  
 This portfolio showcases my skills, projects, and learning journey as an IT student and aspiring software developer.
+
+🔗 **Live Portfolio:**  
+👉 https://harsh202270.github.io/Portfolio/
+
+---
 
 ## 👨‍💻 About Me
 
-I am a passionate IT student with hands-on experience in web and Android development. I enjoy building real-world projects, learning new technologies, and improving my problem-solving skills through continuous practice.
+I am a passionate and motivated IT student with a strong interest in software development and modern technologies. I enjoy building real-world projects, learning new tools, and improving my problem-solving skills through continuous practice. This portfolio reflects my dedication, growth, and hands-on experience.
+
+---
 
 ## 🚀 Skills & Technologies
 
-- **Web Development:** HTML, CSS, JavaScript  
-- **Backend & Database:** PHP (OOP), Firebase, MongoDB  
-- **Android Development:** XML, Java  
-- **Programming:** C++, Java, Data Structures & Algorithms  
-- **Tools:** Git, GitHub, VS Code, Android Studio  
+### 💻 Web Development
+- HTML  
+- CSS  
+- JavaScript  
+
+### 🗄️ Backend & Database
+- PHP (Object-Oriented Programming)  
+- Firebase  
+- MongoDB  
+
+### 📱 Android Development
+- XML  
+- Java  
+
+### 🧠 Programming & DSA
+- C++  
+- Java  
+- Data Structures & Algorithms  
+
+### 🛠️ Tools
+- Git & GitHub  
+- VS Code  
+- Android Studio  
+
+---
 
 ## 📂 Projects
 
@@ -23,7 +50,9 @@ This portfolio includes:
 - Mini projects and practice programs  
 - Learning-based implementations  
 
-Each project reflects my understanding of core concepts and clean coding practices.
+Each project demonstrates my understanding of core concepts, clean coding practices, and real-world problem solving.
+
+---
 
 ## 🎯 Goals
 
@@ -32,8 +61,19 @@ Each project reflects my understanding of core concepts and clean coding practic
 - Learn cloud computing and scalable systems  
 - Grow as a professional software developer  
 
-## 📌 How to Use
+---
 
-1. Clone the repository  
-   ```bash
-   git clone https://github.com/your-username/portfolio.git
+## 📌 How to View
+
+You can view my portfolio directly using the live link below:  
+👉 https://harsh202270.github.io/Portfolio/
+
+---
+
+## 📫 Contact
+
+Feel free to connect with me for collaboration, feedback, or opportunities.
+
+---
+
+⭐ If you like my portfolio, please consider starring this repository!
