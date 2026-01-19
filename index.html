@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Harsh Vardhan | Software Developer</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --primary:#6c63ff;
+  --secondary:#00c9a7;
+  --dark:#0f172a;
+  --light:#f8fafc;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Inter', sans-serif;
+}
+
+body{
+  background:linear-gradient(120deg,#f8fafc,#eef2ff);
+  color:#1e293b;
+  line-height:1.6;
+}
+
+/* HERO */
+.hero{
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:40px;
+}
+.hero-box{
+  max-width:1100px;
+  width:100%;
+  background:rgba(255,255,255,0.7);
+  backdrop-filter:blur(18px);
+  border-radius:24px;
+  padding:60px;
+  box-shadow:0 40px 80px rgba(0,0,0,0.1);
+  display:grid;
+  grid-template-columns:1fr 2fr;
+  gap:50px;
+}
+
+.hero img{
+  width:220px;
+  height:220px;
+  border-radius:50%;
+  object-fit:cover;
+  border:6px solid var(--primary);
+}
+
+.hero h1{
+  font-size:3rem;
+  font-weight:800;
+}
+.hero h2{
+  color:var(--primary);
+  font-size:1.2rem;
+  margin-top:8px;
+}
+.hero p{
+  margin-top:20px;
+  max-width:600px;
+}
+
+.stats{
+  display:flex;
+  gap:30px;
+  margin-top:25px;
+}
+.stat{
+  text-align:center;
+}
+.stat h3{
+  font-size:1.8rem;
+  color:var(--primary);
+}
+
+.buttons{
+  margin-top:30px;
+}
+.btn{
+  padding:12px 22px;
+  border-radius:10px;
+  font-weight:600;
+  margin-right:12px;
+  display:inline-block;
+}
+.btn-primary{
+  background:var(--primary);
+  color:#fff;
+}
+.btn-outline{
+  border:2px solid var(--primary);
+  color:var(--primary);
+}
+
+/* SECTIONS */
+section{
+  max-width:1100px;
+  margin:100px auto;
+  padding:0 30px;
+}
+section h2{
+  font-size:2.5rem;
+  margin-bottom:40px;
+  text-align:center;
+}
+
+/* SKILLS */
+.skills{
+  display:flex;
+  flex-wrap:wrap;
+  gap:15px;
+  justify-content:center;
+}
+.skill{
+  padding:12px 20px;
+  background:#fff;
+  border-radius:30px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.08);
+  font-weight:600;
+}
+
+/* PROJECTS */
+.projects{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:30px;
+}
+.project{
+  background:#fff;
+  padding:30px;
+  border-radius:20px;
+  box-shadow:0 20px 40px rgba(0,0,0,0.1);
+  transition:.3s;
+}
+.project:hover{
+  transform:translateY(-10px);
+}
+.project h3{
+  color:var(--primary);
+}
+
+/* TIMELINE */
+.timeline{
+  border-left:3px solid var(--primary);
+  padding-left:30px;
+}
+.timeline-item{
+  margin-bottom:30px;
+}
+.timeline-item h3{
+  color:var(--primary);
+}
+
+/* CONTACT */
+.contact{
+  text-align:center;
+}
+.contact p{
+  font-size:1.1rem;
+  margin:10px 0;
+}
+
+/* FOOTER */
+footer{
+  text-align:center;
+  padding:30px;
+  background:var(--dark);
+  color:#fff;
+}
+
+/* RESPONSIVE */
+@media(max-width:900px){
+  .hero-box{
+    grid-template-columns:1fr;
+    text-align:center;
+  }
+  .hero img{
+    margin:auto;
+  }
+  .stats{
+    justify-content:center;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-box">
+    <img src="https://avatars.githubusercontent.com/u/197465305?s=400&u=765e55f5957592cf2812a45dbb02eedb5d816396&v=4" alt="Harsh Vardhan">
+    <div>
+      <h1>Harsh Vardhan</h1>
+      <h2>MCA Student | Software Developer</h2>
+
+      <p>
+        Passionate MCA student with a strong Mathematics foundation and hands-on
+        experience in software development, backend systems, databases, and
+        full-stack applications. Focused on building scalable, real-world solutions.
+      </p>
+
+      <div class="stats">
+        <div class="stat">
+          <h3>5+</h3>
+          <p>Projects</p>
+        </div>
+        <div class="stat">
+          <h3>6+</h3>
+          <p>Technologies</p>
+        </div>
+        <div class="stat">
+          <h3>MCA</h3>
+          <p>Ongoing</p>
+        </div>
+      </div>
+
+      <div class="buttons">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Contact</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SKILLS -->
+<section>
+  <h2>Technical Skills</h2>
+  <div class="skills">
+    <div class="skill">Java</div>
+    <div class="skill">Python</div>
+    <div class="skill">C / C++</div>
+    <div class="skill">PHP</div>
+    <div class="skill">ASP.NET</div>
+    <div class="skill">HTML / CSS / JS</div>
+    <div class="skill">MySQL</div>
+    <div class="skill">MongoDB</div>
+    <div class="skill">PostgreSQL</div>
+    <div class="skill">Git & GitHub</div>
+    <div class="skill">Android (Java)</div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="projects">
+    <div class="project">
+      <h3>Library Management System</h3>
+      <p>Java + MySQL desktop app with full CRUD operations and OOP-based architecture.</p>
+    </div>
+    <div class="project">
+      <h3>Inventory Management System</h3>
+      <p>Python & MongoDB system with stock tracking, search, and low-stock alerts.</p>
+    </div>
+    <div class="project">
+      <h3>Employee Management System</h3>
+      <p>PHP & MySQL web application with payroll, departments, and role-based access.</p>
+    </div>
+    <div class="project">
+      <h3>School Management System</h3>
+      <p>ASP.NET + Oracle DB with student records, grades, attendance & authentication.</p>
+    </div>
+    <div class="project">
+      <h3>Photo Notes Android App</h3>
+      <p>Offline Android app using Java & SQLite for image-based notes management.</p>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section>
+  <h2>Education</h2>
+  <div class="timeline">
+    <div class="timeline-item">
+      <h3>MCA – Master of Computer Applications</h3>
+      <p>M.S. Ramaiah College of Arts, Science & Commerce (Pursuing)</p>
+    </div>
+    <div class="timeline-item">
+      <h3>B.Sc. Mathematics (Hons)</h3>
+      <p>Bhuwaneshwari Raja Mahavidyalaya, Patna – 2024</p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <h2>Contact</h2>
+  <p>📧 harshvardhan7112@gmail.com</p>
+  <p>📞 7870067126</p>
+  <p>🔗 linkedin.com/in/harsh-vardhan-961b36253</p>
+</section>
+
+<footer>
+  © 2026 Harsh Vardhan | Professional Software Developer Portfolio
+</footer>
+
+</body>
+</html>
