@@ -4,7 +4,7 @@ Welcome to my Personal Portfolio repository!
 This portfolio showcases my skills, projects, and learning journey as an IT student and aspiring software developer.
 
 🔗 **Live Portfolio:**  
-👉 https://harsh202270.github.io/Portfolio/
+👉 https://harshportfolio-1.netlify.app/
 
 ---
 
